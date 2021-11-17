@@ -11,7 +11,18 @@ $(document).ready(function(){
       else{
          $('.nav-menu').removeClass('custom-navbar');
       }
-      console.log(position);
+   });
+
+   $(window).scroll(function(){
+      let position = $(this).scrollTop();
+      if(position >= 650){
+         $('.camera-img').addClass('fromLeft');
+         $('.mission-text').addClass('fromRight');
+      }
+      else{
+         $('.camera-img').removeClass('fromLeft');
+         $('.mission-text').removeClass('fromRight');
+      }
    });
 })
 

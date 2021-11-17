@@ -86,3 +86,46 @@ header{
 
 /* end of banner */
 /* End of header */
+
+/* Mission */
+.mission{
+   background: #151f20;
+}
+.underline{
+   width: 150px;
+   border: 3px solid #eee;
+   margin: auto;
+}
+
+.fromLeft{
+   animation-name: fromLeft;
+   animation-duration: 3s;
+}
+
+.fromRight{
+   animation-name: fromRight;
+   animation-duration: 3s;
+}
+@keyframes fromLeft{
+   0%{
+      transform: translateX(-120px);
+      opacity: 0;
+   }
+   100% {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+
+@keyframes fromRight{
+   0%{
+      transform: translateX(30px);
+      opacity: 0;
+   }
+   100% {
+      transform: translateX(0);
+      opacity: 1;
+   }
+}
+/* End of Mission */
+
