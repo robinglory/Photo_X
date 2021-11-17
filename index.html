@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="images/title-img.png">
+  <link rel="icon" href="title-img.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -33,7 +33,7 @@
           <a href="#mission" class="nav-link m-2 menu-item">Mission</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link m-2 menu-item">Collections</a>
+          <a href="#collection" class="nav-link m-2 menu-item">Collections</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link m-2 menu-item">Gallery</a>
@@ -109,7 +109,7 @@
   <!-- End of Mission -->
 
   <!-- Collection -->
-  <section class="bg-secondary py-4">
+  <section class="bg-secondary py-5" id="collection">
     <div class="container-fluid">
       <!-- title -->
       <div class="row text-white text-center">
@@ -177,6 +177,53 @@
     </div>
   </section>
   <!-- End Of Collection -->
+
+
+  <!-- gallery -->
+  <section class="py-5">
+    <div class="container-fluid">
+      <!-- title -->
+      <div class="row text-muted text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4">Gallery</h1>
+          <div class="underline-dark mb-4"></div>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet omnis quia tempora.</p>
+        </div>
+      </div>
+      <!-- end of title -->
+      <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
+        <li class="list-inline-item gallery-list-item active-item" data-filter="all">All<span class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="new">New<span class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="free">Free<span class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="pro">Pro
+        </li>
+      </ul>
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="filter new"><img src="img1.jpeg" width="300"></div>
+          <div class="filter free"><img src="img2.jpeg" width="300"></div>
+          <div class="filter pro"><img src="img3.jpeg" width="300"></div>
+          <div class="filter new"><img src="img4.jpeg" width="300"></div>
+          <div class="filter pro"><img src="img5.jpeg" width="300"></div>
+          <div class="filter free"><img src="img6.jpeg" width="300"></div>
+          <div class="filter pro"><img src="img7.jpeg" width="300"></div>
+          <div class="filter free"><img src="img8.jpeg" width="300"></div>
+          <div class="filter new"><img src="img9.jpeg" width="300"></div>
+          <div class="filter pro"><img src="img10.jpeg" width="300"></div>
+          <div class="filter free"><img src="img11.jpeg" width="300"></div>
+          <div class="filter pro"><img src="img12.jpeg" width="300"></div>
+          <div class="filter new"><img src="img13.jpeg" width="300"></div>
+          <div class="filter free"><img src="img14.jpeg" width="300"></div>
+          <div class="filter new"><img src="img15.jpeg" width="300"></div>
+          <div class="filter pro"><img src="img16.jpeg" width="300"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of gallery -->
 
    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
