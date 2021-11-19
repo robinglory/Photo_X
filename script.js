@@ -47,7 +47,7 @@ $(document).ready(function(){
           $('.card-3').addClass('moveFromBottom');
        }
        else{
-         $('..card-1').removeClass('moveFromLeft');
+         $('.card-1').removeClass('moveFromLeft');
          $('card-2').removeClass('moveFromRight');
          $('.card-3').removeClass('moveFromBottom');
        }
