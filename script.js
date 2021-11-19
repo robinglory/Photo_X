@@ -24,13 +24,14 @@ $(document).ready(function(){
          $('.mission-text').removeClass('fromRight');
       }
    });
+   
    $('.gallery-list-item').click(function() {
       let value = $(this).attr('data-filter');
       if(value === 'all') {
-        $('.filter').show(300);
+        $('.filter').show(1000);
       } else {
-        $('.filter').not('.' + value).hide(300);
-        $('.filter').filter('.' + value).show(300);
+        $('.filter').not('.' + value).hide(1000);
+        $('.filter').filter('.' + value).show(1000);
       }
     });
   
